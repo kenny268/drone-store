@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -24,4 +24,12 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+} */
+
+@font-face {
+  font-family: 'Algerian';
+  src: url('/fonts/Algerian.ttf') format('truetype'); /* Adjust the path as needed */
+  font-weight: normal;
+  font-style: normal;
 }
+
