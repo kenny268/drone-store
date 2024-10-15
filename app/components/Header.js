@@ -8,7 +8,7 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="bg-gray-200 p-4 shadow-lg w-full">
+    <header className="bg-gray-800 p-4 shadow-lg w-full">
       <nav className="flex justify-between items-center relative">
         {/* Brand Name */}
         <div className="text-2xl md:text-3xl font-bold text-lightGrey">

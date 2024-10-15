@@ -20,7 +20,7 @@ export default function ProductSlider() {
   }, [currentIndex]);
 
   return (
-    <div className="relative w-full max-w-lg md:max-w-4xl mx-auto bg-mediumGrey h-full rounded-lg shadow-lg p-8">
+    <div className="relative w-full max-w-lg md:max-w-4xl mx-auto bg-gray-800 h-full rounded-lg shadow-lg p-8">
       <div className="overflow-hidden">
         <div className="flex transition-transform duration-500"
           style={{ transform: `translateX(-${currentIndex * 100}%)` }}>

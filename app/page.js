@@ -13,15 +13,15 @@ export default function Home() {
         </section>
         <div className='flex w-full items-start max-sm:items-center justify-around max-sm:flex-col relative'>
           <div className='w-2/6 max-sm:w-5/6'>
-            <h1 className='text-4xl mb-6 text-slate-600 font-semibold w-1/2 max-sm:w-5/6 text-center'>3D MODELING SERVICE</h1>
+            <h1 className='text-4xl mb-6 text-slate-200 font-semibold w-1/2 max-sm:w-5/6 text-center'>3D MODELING SERVICE</h1>
             <hr className="w-1/2 border-1 mb-6 border-blue-400 max-sm:mx-auto"/>
-            <h2 className='text-2xl max-sm:text-xl text-slate-500 font-light'>
+            <h2 className='text-2xl max-sm:text-xl text-slate-300 font-light'>
             Collect photogrammetric imagery and create affordable 3D models of any terrain. Capture the location of interest from every possible angle.
             </h2>
             <div className='max-sm:hidden'>
-            <p className='my-3 text-l text-slate-600 font-thin'>Mile High Drones provides an affordable 3D mapping and modeling service with Unmanned Aerial Vehicles. Before drones, getting a 3D model and a 3D map was outright expensive and hard to accomplish due to terrain and logistic issues. It used to take weeks or months for even the smallest areas, but with Mile High Drones, you can get the 3D modeling service in a matter of days. Drones provide convenience, quick turnarounds, and not to mention the affordability of 3D modeling.</p>
-            <p className='my-3 text-l text-slate-600 font-thin'>Cutting edge technology, thousands of High Definition photos and multiple flights ensure the precision of the 3D model. We can even export imagery as video animations you can use for commercial or promotional purposes. Our 3D drone mapping renders can be imported into CAD programs, as well.</p>
-            <p className='my-3 text-l text-slate-600 font-thin'>Get highly accurate and affordable 3D models that will make any construction and engineering project a breeze.</p>
+            <p className='my-3 text-l text-slate-200 font-thin'>Mile High Drones provides an affordable 3D mapping and modeling service with Unmanned Aerial Vehicles. Before drones, getting a 3D model and a 3D map was outright expensive and hard to accomplish due to terrain and logistic issues. It used to take weeks or months for even the smallest areas, but with Mile High Drones, you can get the 3D modeling service in a matter of days. Drones provide convenience, quick turnarounds, and not to mention the affordability of 3D modeling.</p>
+            <p className='my-3 text-l text-slate-200 font-thin'>Cutting edge technology, thousands of High Definition photos and multiple flights ensure the precision of the 3D model. We can even export imagery as video animations you can use for commercial or promotional purposes. Our 3D drone mapping renders can be imported into CAD programs, as well.</p>
+            <p className='my-3 text-l text-slate-200 font-thin'>Get highly accurate and affordable 3D models that will make any construction and engineering project a breeze.</p>
             </div>
           </div>
         <section className="max-sm:mb-10 h-auto md:my-10 w-3/6 max-sm:w-5/6">

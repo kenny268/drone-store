@@ -15,7 +15,7 @@ export default function Products() {
     <h1 className="text-3xl md:text-5xl font-bold mb-4 text-center">Our Products</h1>
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
       {products.map((product) => (
-        <div key={product.id} className="bg-mediumGrey p-6 rounded-lg shadow-lg text-center">
+        <div key={product.id} className="bg-gray-800 p-6 rounded-lg shadow-lg text-center">
           <img src={product.img} alt={product.name} className="h-48 md:h-64 w-full object-cover rounded-lg mb-4" />
           <h3 className="text-2xl font-semibold mb-2">{product.name}</h3>
           <p className="text-lightGrey mb-4">{product.description}</p>
