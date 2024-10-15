@@ -24,8 +24,8 @@ export default function Home() {
             <p className='my-3 text-l text-slate-200 font-thin'>Get highly accurate and affordable 3D models that will make any construction and engineering project a breeze.</p>
             </div>
           </div>
-        <section className="max-sm:mb-10 h-auto md:my-10 w-3/6 max-sm:w-5/6">
-          <h2 className="text-2xl md:text-3xl font-semibold text-center mb-4 md:mb-6">Our Products</h2>
+        <section className="max-sm:mb-10 sm:mt-4 h-auto md:my-10 w-3/6 max-sm:w-5/6">
+          <h2 className="text-2xl md:text-3xl font-semibold text-center mb-4 md:mb-6">Our Services</h2>
           <ProductSlider />
         </section>
 

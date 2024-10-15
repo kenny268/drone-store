@@ -32,7 +32,7 @@ export default function Header() {
         {/* Links (for desktop) */}
         <ul className={`hidden md:flex space-x-6 text-lightGrey`}>
           <li><Link href="/">Home</Link></li>
-          <li><Link href="/products">Products</Link></li>
+          <li><Link href="/products">Services</Link></li>
           <li><Link href="/about">About Us</Link></li>
           <li><Link href="/contact">Contact</Link></li>
           <li><Link href="/mission">Mission</Link></li>
