@@ -40,7 +40,7 @@ export default function Header() {
 
         {/* Mobile Menu */}
         <ul
-          className={`flex-col z-10 space-y-4 text-lightGrey absolute top-[3rem] right-0 bg-slate-100 p-4 rounded-lg shadow-lg md:hidden w-[200px] transition-transform duration-300 ease-in-out ${
+          className={`flex-col z-10 space-y-4 text-lightGrey absolute top-[3rem] right-0 bg-slate-800 p-4 rounded-lg shadow-lg md:hidden w-[200px] transition-transform duration-300 ease-in-out ${
             isMenuOpen ? 'block' : 'hidden'
           }`}
         >
